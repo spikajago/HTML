@@ -10,9 +10,88 @@
     <link rel="icon" type="image/png" sizes="16x16" href="favcon_io/favicon-16x16.png">
     <link rel="manifest" href="favcon_io/site.webmanifest">
 </head>
-
+<h1>Vormide loomine</h1>
 <body>
-
+    <table>
+        <tr>
+            <form>
+                <label>Kasutajanimi:</label>
+                <input name="otsing" type="search">
+                <input type="submit" value="Otsi">
+            </form>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <form>
+                <label>Kursus:</label>
+                <input name="otsing" type="search">
+                <input type="submit" value="Otsi">
+            </form>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <form>
+                <label>Osakonna number: </label>
+                <input type="number" value="1" min="1" max="5" step="1">
+            </form>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <form>
+                <label>Parool:</label>
+                <input name="otsing" type="search">
+            </form>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <form>
+                <select>
+                    <label>Vali teenus:</label>
+                <optgroup label="Odavad">
+                    <option value="sin">0,87</option>
+                    <option value="sin">2,90€</option>
+                    <option value="sin">5,80€</option>
+                </optgroup>
+                <optgroup label="Kallid">
+                    <option value="sin">10,64€</option>
+                    <option value="sin">20,23€</option>
+                    <option value="sin">30,75€</option>
+                </optgroup>
+                </select>
+            </form>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <form>
+                <label>Roll:</label>
+                <input type="radio" name="varv" value="sin">Admin<br>
+                <input type="radio" name="varv" value="sin">Moderaator<br>
+                <input type="radio" name="varv" value="sin" >User<br>
+            </form>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <form>
+                <label>Nõustun tingimustega:</label>
+                <input type="checkbox" name="varv" value="pun"><br>
+            </form>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <form>
+                <label> Enesetutvustus:</label>
+                <textarea rows="20" cols="50"></textarea><br>
+                <input type="submit" value="Salvesta">
+            </form>
+        </tr>
+    </table>
 </body>
 
 </html>
